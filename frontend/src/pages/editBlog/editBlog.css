@@ -1,0 +1,49 @@
+
+.edit-blog-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow: auto;
+}
+
+textarea[name="description"] {
+    resize: both;
+}
+
+.full-width {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.full-width-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #A682FF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.full-width-button:hover {
+    background-color: #6200ea;
+}
+
+
+@media (min-width: 350px ) and (max-width: 650px)  {
+    .edit-blog-form{
+        min-width: 300px;
+    }
+}

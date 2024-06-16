@@ -1,0 +1,109 @@
+.testimonies-part{
+    display: grid;
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+}
+
+@media screen and (max-width: 480px) {
+    .main-blog {
+        flex-direction: column;
+    }
+
+    .main-blog-img {
+        width: 100%;
+    }
+
+    .blog-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .testimonies-part {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .profile-picture-h1{
+        font-size: medium;
+    }
+
+    .createnew-form{
+        width: 90%;
+    }
+}
+
+/* Small Tablets (481px to 768px) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    .main-blog {
+        flex-direction: column;
+    }
+
+    .main-blog-img {
+        width: 100%;
+    }
+
+    .blog-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .testimonies-part{
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+    
+    }
+}
+
+/* Large Tablets (769px to 1024px) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+
+    .main-blog {
+        flex-direction: column;
+    }
+
+    .main-blog-img {
+        width: 100%;
+    }
+
+    .blog-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .testimonies-part {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+}
+
+/* Desktops (1025px and above) */
+@media screen and (min-width: 1025px) {
+
+    .testimonies-part {
+
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+}
+
+
+.search-bar{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+

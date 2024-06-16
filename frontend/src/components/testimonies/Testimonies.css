@@ -1,0 +1,121 @@
+/* src/Testimonies.css */
+
+.testimonies-container {
+    text-align: center;
+    padding: 20px;
+}
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #555;
+    text-align: center;
+  }
+  
+  .testimonies {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .testimony-card {
+    background-color: #f3eafa; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.1);
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 350px;
+  }
+  
+  .testimony-image {
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+  }
+  
+  .testimony-name {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .testimony-likes {
+    color: #ff5a5f;
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  .testimony-description {
+    font-size: 1rem;
+    color: #777;
+  }
+
+
+.profile-card {
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  width: 200px;
+  margin: 10px auto;
+  position: relative;
+  width: 90%;
+}
+
+.profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-name {
+  font-size: 1rem;
+  margin: 0; 
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.profile-cardandlike{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.profile-imgandname{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-description {
+  font-size: 0.9rem;
+  color: #333;
+}
+  
+@media (min-width: 992px) {
+  .testimony-image {
+    width: 350px;
+    border-radius: 10px;
+    height: 200px;
+    padding-top: 20px;
+  }
+  
+}
